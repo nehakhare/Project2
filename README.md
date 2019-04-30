@@ -9,7 +9,6 @@ hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -file /
 Results are stored in the output
 
 Filter for abnormalities
-missing_on_first_day: Checks to see if there is a -9999 listed in column 4 or has a P in column 5. If either ise true, then data is missing on the first day.
+missing_on_first_day: Checks to see if there is a -9999 listed in column 4 or has a P in column 5. If either is true, then data is missing on the first day.
 is_tmin_or_tmax: Checks to make sure the data is only a TMIN or TMAX value.
-is_quality_reading: If there is any value in column 6, the data is classified as a bad and removed.
-source_exists: If a source does not exist in column 7, the data is removed.
+
